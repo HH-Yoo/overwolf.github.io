@@ -13,6 +13,10 @@ Please read the [overwolf.games.events](overwolf-games-events) documentation pag
 ## Sample Apps
 * [Eternal Return game events sample app](https://github.com/overwolf/events-sample-apps)
 
+## Event Data 
+Events will include data as a string. If there is more than one data passed down by the event, you must retrieve it as a json - string format.<br>
+eg) {"data" : "{\"name\" : \"A\", \"address\" : \"A\"}"}
+
 ## Available Features
 This is a on-going development.
 All events and info updates can be target to changes.
